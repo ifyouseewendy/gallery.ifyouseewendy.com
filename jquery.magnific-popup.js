@@ -586,7 +586,8 @@ MagnificPopup.prototype = {
 
 			item.src = item.el.attr('data-mfp-src');
 			if(!item.src) {
-				item.src = item.el.attr('href');
+				/* item.src = item.el.attr('href'); */
+				item.src = item.el.attr('src');
 			}
 		}
 
